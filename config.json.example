@@ -1,0 +1,29 @@
+{
+	"satellite": { 
+		"nation":"Your satellite here",
+		"password":"Your password here, or...",
+		"autologin":"...your autologin here"
+	},
+
+	"nations": { 
+		"monitored":[ 
+			"Monitored nation A",
+			"Monitored nation B",
+			"Monitored nation C"
+		],
+		"alerts":[
+			"TODO":"TODO"
+		]
+	},
+
+	"regions": { 
+		"monitored":[
+			"Monitored region A",
+			"Monitored region B",
+			"Monitored region C"
+		],
+		"alerts":[
+			"TODO":"TODO"
+		]
+	}
+}
