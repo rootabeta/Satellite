@@ -130,3 +130,6 @@ dmypy.json
 
 # OpSec stuff
 config.json
+
+# Config/recordkeeping stuff
+log.toml

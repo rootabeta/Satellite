@@ -1,29 +1,58 @@
 {
 	"satellite": { 
+		"MAINNATION":"YOUR MAIN NATION HERE",
+
 		"nation":"Your satellite here",
 		"password":"Your password here, or...",
 		"autologin":"...your autologin here"
 	},
 
 	"nations": { 
-		"monitored":[ 
-			"Monitored nation A",
-			"Monitored nation B",
-			"Monitored nation C"
-		],
-		"alerts":[
-			"TODO":"TODO"
-		]
+		"blacklist":["testlandia"],
+
+		"movement":{
+			"ban":"True",
+			"ejection":"True",
+			"relocation":"False"
+		},
+
+		"status":{
+			"cte":"True",
+			"endorsed":"False"
+		},
+
+		"officership":{
+			"delegacychange":"True",
+			"rodismissed":"True",
+			"rogranted":"True"
+		}
 	},
 
 	"regions": { 
-		"monitored":[
-			"Monitored region A",
-			"Monitored region B",
-			"Monitored region C"
-		],
-		"alerts":[
-			"TODO":"TODO"
-		]
+		"blacklist":["Artificial Solar System","testregonia"],
+
+		"officers":{
+			"newdelegate":"True",
+			"rocreate":"True",
+			"rodismiss":"True",
+		},
+
+		"cosmetics":{
+			"wfe":"True",
+			"banner":"True",
+			"flag":"True"
+		},
+
+		"embassies":{
+			"propose":"True",
+			"agree":"True",
+			"withdraw":"True"
+		},
+
+		"bordercontrol":{
+			"eject":"False",
+			"banject":"False",
+			"password":"True"
+		}
 	}
 }
